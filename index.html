@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <h1>Hello there!</h1>
+    <a href="/me.html">My other page</a>
+    <div id="me">Div</div>
+
+    <script>
+      var element = document.getElementById('me');
+
+      // clientHeight includes padding.
+      console.log(element.clientHeight);
+
+      // offsetHeight includes padding, scrollBar and borders.
+      // 2px border. top:2px + bottom:2px = 4px height
+      console.log(element.offsetHeight);
+    </script>
+  </body>
+</html>

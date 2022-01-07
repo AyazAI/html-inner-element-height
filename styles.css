@@ -1,0 +1,17 @@
+body {
+  background: orange;
+}
+
+div {
+  height: 100px;
+  width: 100px;
+  padding: 10px;
+
+  /* client height doesn't count margin */
+  margin: 10px;
+
+  /* border for offset height */
+  border: 2px solid black;
+
+  background-color: aqua;
+}
